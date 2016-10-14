@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+#home, #about, #contact {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+}
+
+#vertical {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  margin-left: 280px;
+}
+
+.mainNav {
+  position: fixed;
+  /*display: none;*/
+  background-color: grey;
+  opacity: 0.4;
+  height: 70%;
+  width: 25%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 60px;
+}
