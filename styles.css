@@ -2,6 +2,16 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
+.menu {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+
 #home, #about, #contact {
   text-decoration: none;
   color: white;
@@ -9,9 +19,11 @@ body {
 }
 
 #vertical {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
+  direction: ltr;
   text-orientation: sideways-right;
-  margin-left: 280px;
+  position: fixed;
+
 }
 
 .mainNav {
