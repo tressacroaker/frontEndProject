@@ -1,39 +1,93 @@
 body {
   margin: 0;
+  /*background-color: #eef2f3 ;*/
 }
 
-h1 {
+#page {
+  z-index: -1;
+}
+
+.title {
   text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: 'Fredericka the Great', cursive;
+  border-bottom: 3px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.menu {
-  position: fixed;
-  top: 60px;
-  right: 30px;
+.rowThree {
+  border-top: 3px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.rowTwo {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 650px;
+}
+
+#date {
+  font-size: 20px;
+  font-family: monospace;
+  position: absolute;
+}
+
+.search {
+  position: absolute;
+  top: 110px;
+  right: 110px;
+}
+
+#searchInput {
+  position: absolute;
+  top: 120px;
+  right: 160px;
 }
 
 #home, #about, #contact {
   text-decoration: none;
-  color: white;
-  font-size: 50px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Josefin Slab', serif;
 }
 
-#vertical {
-  writing-mode: vertical-lr;
-  direction: ltr;
-  text-orientation: sideways-right;
-  position: fixed;
-
+.lorem{
+  width: 450px;
 }
 
 .mainNav {
-  position: fixed;
-  /*display: none;*/
-  background-color: grey;
-  opacity: 0.4;
-  height: 70%;
-  width: 25%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding-left: 60px;
+  position: absolute;
+  top: 250px;
+  right: 60px;
+  border-left: 2px solid black;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
 }
