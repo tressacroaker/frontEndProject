@@ -43,6 +43,7 @@ body {
 
 #searchInput {
   position: absolute;
+  display: none;
   top: 120px;
   right: 160px;
 }
@@ -69,8 +70,7 @@ body {
 .container {
   max-width: 400px;
   background-color: black;
-  margin: 0 auto;
-  text-align: center;
+  /*text-align: center;*/
   position: relative;
 }
 .container div {
@@ -82,12 +82,4 @@ body {
 .container img {
   width: 100%;
   height: auto;
-}
-
-.next {
-  right: 5px;
-}
-
-.prev {
-  left: 5px;
 }
